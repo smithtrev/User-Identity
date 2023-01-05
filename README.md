@@ -1,20 +1,17 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Pulls data from Edsembli and Atrieve which is dumped into an SQL Databsae.  The data is iterated through to create/modify/delete users accounts in Active Directory and uploads are created for Destiny Patrons 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Install Python
+* Install the lastest version of python 3 (tested with Python 3.11.1) from https://python.org
+* Install the required python libraries with pip install -r requirements.txt
+* Install the chromedriver matching the version of Chrome you have on your computer.  This needs to be placed somewhere this is one of your system paths such as: %SystemRoot%\system32 or you need to add the location of it to this to your PATH in the Eviromental Variables (Only required for Atrieve Integration).  It can be downloaded from here: https://chromedriver.chromium.org/downloads
+
+## Install Requirements
+* Python 3.9 or above (tested with 3.11.1)
+* Google Chrome
+* Chromedriver (matching the installed version of Chrome)
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+* Running from Visual Code
+* or run python.exe .\Identity Automation\main.py'
